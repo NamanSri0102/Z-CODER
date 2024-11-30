@@ -1,5 +1,5 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
 const UserRouting=require('./Routes/User-Routing');
 const bodyParser=require('body-parser');
 const QuestionRouting=require('./Routes/Question-Routing');
